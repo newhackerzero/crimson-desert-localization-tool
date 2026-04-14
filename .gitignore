@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Build artifacts
+tools/dist/
+tools/build/
+tools/nuitka_build/
+*.exe
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (large / user-specific)
+Localization file/
+PALOC_Export/
+PALOC_Import/
+Mod files for release/
+vertex_batch/
+
+# Config (user-specific)
+config.json
+
+# Glossary / translation data (large data files)
+Glossary.csv
+Glossary_Fixed.csv
+localization_diff.json
+translation_mapping.json
+unique_diff.json
+relevant_glossary.json
+missing_br.json
+qa_report.txt
+
+# Helper scripts (not part of the tool)
+apply_translations.py
+compare_localization.py
+find_glossary_terms.py
+merge_localization.py
+qa_check.py
+
+# Markdown docs (internal workflow)
+VERTEX_BATCH_VIET_HOA_QUY_TRINH_CHUAN.md
